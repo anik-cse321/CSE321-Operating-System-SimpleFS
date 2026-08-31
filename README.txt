@@ -20,17 +20,36 @@ KNOWN LIMITATIONS / PROBLEMS
 
 WORK DISTRIBUTION
 
-1. Anik Rahman
-   - Primary responsibility for SimpleFS implementation.
-   - Builder and Adder development.
-   - Compilation, debugging, testing, and final verification.
-   - Documentation and final submission preparation.
+Anik Rahman
+Responsible for:
 
-2. MD. Shahriar Saif
-   - Assigned responsibility for specification review and test-case review.
+Development of simplefs_adder.c
+Implementing file insertion functionality
+Implementing inode and data block allocation logic
+Handling duplicate filename detection
+Implementing file size and filename validation
+Testing regular file insertion scenarios
+Debugging and verification of Adder module
+Integration testing with the complete SimpleFS system
+MD. Shahriar Saif
+Responsible for:
 
-3. Ayasha Islam
-   - Assigned responsibility for documentation review and submission checking.
+Development of simplefs_builder.c
+Implementing filesystem image creation logic
+Initializing superblock, inode bitmap, and data bitmap
+Creating and configuring the root directory
+Implementing root directory entries (. and ..)
+Compilation and debugging of Builder module
+Verification of initial filesystem structure
+Ayasha Islam
+Responsible for:
+
+Maintaining and reviewing simplefs.h
+Reviewing filesystem constants and data structures
+Verifying compatibility between Builder and Adder modules
+Preparing project documentation and README files
+Reviewing test cases and expected outputs
+Performing final documentation and submission checks
 
 FILES
 1. simplefs.h          - fixed constants and structures; do not modify unless instructed.
