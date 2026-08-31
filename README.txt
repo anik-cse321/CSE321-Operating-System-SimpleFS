@@ -6,6 +6,10 @@ GROUP MEMBERS
 2. MD. Shahriar Saif - 22299360
 3. Ayasha Islam - 19241002
 
+Project Goal :
+The goal of this project was to implement a small educational filesystem called SimpleFS for the CSE321 Operating Systems course. We developed two main components: a filesystem builder that creates and initializes a valid SimpleFS disk image by setting up the superblock, inode bitmap, data bitmap, inode table, and root directory, and a file adder that inserts regular files into the filesystem using inode and data-block allocation, directory updates, and validation checks. We also tested the system through different scenarios such as normal file insertion, duplicate files, zero-byte files, maximum-size files, oversized files, and filename limits to verify that the filesystem works correctly according to the given specifications.
+
+
 IMPLEMENTATION DESCRIPTION
 - simplefs_builder.c creates a 262144-byte SimpleFS image and initializes the
   superblock, inode bitmap, data bitmap, root inode, and "." / ".." directory entries.
