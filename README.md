@@ -1043,42 +1043,51 @@ Contains the official project submission documentation and compilation instructi
 
 ---
 
-WORK DISTRIBUTION
-Anik Rahman
+## WORK DISTRIBUTION
 
-Responsible for:
-
-Development of simplefs_adder.c
-Implementing file insertion functionality
-Implementing inode and data block allocation logic
-Handling duplicate filename detection
-Implementing file size and filename validation
-Testing regular file insertion scenarios
-Debugging and verification of Adder module
-Integration testing with the complete SimpleFS system
-MD. Shahriar Saif
-
-Responsible for:
-
-Development of simplefs_builder.c
-Implementing filesystem image creation logic
-Initializing superblock, inode bitmap, and data bitmap
-Creating and configuring the root directory
-Implementing root directory entries (. and ..)
-Compilation and debugging of Builder module
-Verification of initial filesystem structure
-Ayasha Islam
-
-Responsible for:
-
-Maintaining and reviewing simplefs.h
-Reviewing filesystem constants and data structures
-Verifying compatibility between Builder and Adder modules
-Preparing project documentation and README files
-Reviewing test cases and expected outputs
-Performing final documentation and submission checks
 ---
 
+### **Anik Rahman**
+
+Responsible for:
+
+- Development of `simplefs_adder.c`
+- Implementing file insertion functionality
+- Implementing inode and data block allocation logic
+- Handling duplicate filename detection
+- Implementing file size and filename validation
+- Testing regular file insertion scenarios
+- Debugging and verification of Adder module
+- Integration testing with the complete SimpleFS system
+
+
+---
+
+### **MD. Shahriar Saif**
+
+Responsible for:
+
+- Development of `simplefs_builder.c`
+- Implementing filesystem image creation logic
+- Initializing superblock, inode bitmap, and data bitmap
+- Creating and configuring the root directory
+- Implementing root directory entries (`.` and `..`)
+- Compilation and debugging of Builder module
+- Verification of initial filesystem structure
+
+
+---
+
+### **Ayasha Islam**
+
+Responsible for:
+
+- Maintaining and reviewing `simplefs.h`
+- Reviewing filesystem constants and data structures
+- Verifying compatibility between Builder and Adder modules
+- Preparing project documentation and README files
+- Reviewing test cases and expected outputs
+- Performing final documentation and submission checks
 # Known Limitations
 
 The implementation follows the scope of the supplied SimpleFS project specification.
