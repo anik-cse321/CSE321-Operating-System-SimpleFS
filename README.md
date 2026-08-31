@@ -1043,38 +1043,40 @@ Contains the official project submission documentation and compilation instructi
 
 ---
 
-# Work Distribution
+WORK DISTRIBUTION
+Anik Rahman
 
-## Anik Rahman
+Responsible for:
 
-Primary responsibility for:
+Development of simplefs_adder.c
+Implementing file insertion functionality
+Implementing inode and data block allocation logic
+Handling duplicate filename detection
+Implementing file size and filename validation
+Testing regular file insertion scenarios
+Debugging and verification of Adder module
+Integration testing with the complete SimpleFS system
+MD. Shahriar Saif
 
-- SimpleFS implementation
-- Builder development
-- Adder development
-- Compilation
-- Debugging
-- Functional testing
-- Boundary testing
-- Filesystem inspection
-- Final verification
-- Documentation
-- Submission preparation
+Responsible for:
 
-## MD. Shahriar Saif
+Development of simplefs_builder.c
+Implementing filesystem image creation logic
+Initializing superblock, inode bitmap, and data bitmap
+Creating and configuring the root directory
+Implementing root directory entries (. and ..)
+Compilation and debugging of Builder module
+Verification of initial filesystem structure
+Ayasha Islam
 
-Assigned responsibility for:
+Responsible for:
 
-- Specification review
-- Test-case review
-
-## Ayasha Islam
-
-Assigned responsibility for:
-
-- Documentation review
-- Submission checking
-
+Maintaining and reviewing simplefs.h
+Reviewing filesystem constants and data structures
+Verifying compatibility between Builder and Adder modules
+Preparing project documentation and README files
+Reviewing test cases and expected outputs
+Performing final documentation and submission checks
 ---
 
 # Known Limitations
